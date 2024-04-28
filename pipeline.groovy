@@ -8,7 +8,7 @@ pipeline {
         VAR='NUEVO'
     }
     tools {
-        nodejs 'nodejs'
+        nodejs 'nodeJs'
     }
     parameters {
         string defaultValue: 'main', description: 'Colocar un branch a deployar', name: 'BRANCH', trim: false
